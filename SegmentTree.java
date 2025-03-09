@@ -1,5 +1,6 @@
 import java.util.*;
 import java.io.*;
+
 class SegTree{
 	static int seg[];
 	static int a[];
