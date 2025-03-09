@@ -52,11 +52,6 @@ class SegTree{
 
 		int q;
 		q = sc.nextInt();
-		for(int i = 0; i < 4 * n; i++)
-			if(seg[i] != -1)
-			System.out.print(i + "->" + seg[i] + " ");
-
-		System.out.println();
 
 		for(int i = 0; i < q; i++){
 			int l = sc.nextInt();
